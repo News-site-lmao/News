@@ -1,12 +1,13 @@
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import {Routes, Route} from "react-router-dom";
+import SearchBar from "./components/Search/Search";
 
 function App() {
   return (
     <>
         <Navbar/>
         <Footer/>
+        <SearchBar/>
     </>
   )
 }
